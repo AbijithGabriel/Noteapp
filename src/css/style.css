@@ -258,6 +258,25 @@ body{
 /*-----------------------------------*\
   #TYPOGRAPHY
 \*-----------------------------------*/
+.text-display-large{
+font-size: var(--fs-display-large);  
+line-height: var(--lh-display-large);
+font-weight: var(--fw-medium);
+letter-spacing: var(--ls-p-025);
+}
+.text-display-medium{
+  font-size: var(--fs-display-medium);
+  line-height: var(--lh-display-medium);
+  font-weight: var(--fw-medium);
+}
+.text-display-small{
+  font-size: var(--fs-display-small);
+  line-height: var(--lh-display-small);
+  font-weight: var(--fw-regular);
+}
+
+
+
 
 /*-----------------------------------*\
   #REUSED STYLE
